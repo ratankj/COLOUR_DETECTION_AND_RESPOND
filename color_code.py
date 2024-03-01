@@ -29,6 +29,9 @@ while True:
         if cv2.contourArea(contour) > 100:
             if is_red_square(frame, contour):
                 print("Red square detected!")
+                print("data is printed ,  this code will detect thej red colour")
+
+
                 # Add your trigger action here
                 
     # Display the captured screen

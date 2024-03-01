@@ -1,7 +1,7 @@
 import cv2
 from PIL import Image
 
-from util import get_limits
+from utils import get_limits
 
 
 yellow = [0, 255, 255]  # yellow in BGR colorspace
